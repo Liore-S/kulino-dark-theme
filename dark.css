@@ -1,0 +1,137 @@
+/* Homepage and General */
+
+body {
+  background: #181818 !important;
+}
+
+/* a:hover {
+  color: #a6761e !important;
+} */
+
+#wrapper {
+  border-top: 4px solid #1c54ac !important;
+}
+
+.socials-header .social_contact a:hover {
+  color: #a9a9a9 !important;
+}
+
+#wrapper .socials-header .socials {
+  background: #2f2f2f !important;
+}
+
+.navbar .navbar-inner .container-fluid {
+  background: #3e8ede !important;
+}
+
+.navbar .brand {
+  background: #1c54ac !important;
+}
+
+.navbar .brand:hover {
+  background: #144087 !important;
+}
+
+.navbar #search button[type="submit"] {
+  background: #1c54ac url(/theme/image.php/lambda/theme/1634548811/bg/icon-search) no-repeat center center !important;
+  position: absolute;
+  right: 0;
+}
+
+/* !! Hover Search Button !! */
+/* .navbar #search button[type="submit"]:hover {
+    background: #144087 url(/theme/image.php/lambda/theme/1634548811/bg/icon-search) no-repeat center center !important;
+} */
+
+.navbar .navbar-inner div.nav-collapse ul.nav {
+  background: #3e8ede !important;
+}
+
+.navbar .navbar-inner .lambda-custom-menu a:hover {
+  color: #fff !important;
+}
+
+#page,
+#page-header {
+  background: #212121 !important;
+}
+
+#block-login div#user,
+#block-login div#pass {
+  background: #2f2f2f !important;
+}
+
+#block-login input[type="text"],
+#block-login input[type="password"] {
+  background: #2f2f2f !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+#block-login input[type="text"]::placeholder,
+#block-login input[type="password"]::placeholder {
+  color: #c7cdd1 !important;
+}
+
+/* !! Change input autofill background colour !!*/
+/* #block-login input[type="text"]:webkit-autofill, #block-login input[type="password"]:webkit-autofill{
+  -webkit-box-shadow: 0 0 0 1000px #2f2f2f inset !important;
+} */
+
+#page #site-news-forum :is(h1,h2,h3,h4,h5,h6) {
+  color: #c7cdd1 !important;
+  text-decoration: none !important;
+}
+
+#page #site-news-forum h2::after {
+  background: #3e8ede !important;
+}
+
+#site-news-forum div article .forumpost {
+  background: #2f2f2f !important;
+  border: none !important;
+}
+
+#site-news-forum div article .forumpost h3,
+#site-news-forum div article .forumpost p,
+#site-news-forum div article .forumpost .post-content-container {
+  color: #c7cdd1 !important;
+}
+
+#site-news-forum div article .forumpost table {
+  color: #000 !important;
+}
+
+#site-news-forum div article div {
+  padding-right: 8px !important;
+}
+
+#site-news-forum div article header {
+  background: #212121 !important;
+  color: #c7cdd1 !important;
+  border-radius: 5px !important;
+}
+
+#inst21 {
+  background: #2f2f2f !important;
+  border: none !important;
+}
+
+#inst21 .card-body h5,
+#inst21 .card-body .card-text ul li p,
+#inst21 .card-body .card-text ul li p a {
+  color: #c7cdd1 !important;
+}
+
+footer .footerlinks {
+  background: #2f2f2f !important;
+}
+
+/* Site  Announcement */
+
+div#page,
+div#page h2 {
+  color: #c7cdd1 !important;
+}
+
+/* Student Page */

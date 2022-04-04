@@ -1,0 +1,25 @@
+{
+  "name": "Kulino Dark Theme",
+  "version": "1.0",
+  "description": "Dark Theme for Kulino",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://kulino.dinus.ac.id/*"],
+      "css": ["dark.css"]
+    }
+  ],
+  "icons": {
+    "16": "img/icon_16.png",
+    "32": "img/icon_32.png",
+    "48": "img/icon_48.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "img/icon_16.png",
+      "32": "img/icon_32.png",
+      "48": "img/icon_48.png"
+    }
+  }
+}
