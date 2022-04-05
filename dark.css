@@ -4,9 +4,9 @@ body {
   background: #181818 !important;
 }
 
-/* a:hover {
+a:hover {
   color: #a6761e !important;
-} */
+}
 
 #wrapper {
   border-top: 4px solid #1c54ac !important;
@@ -33,7 +33,9 @@ body {
 }
 
 .navbar #search button[type="submit"] {
-  background: #1c54ac url(/theme/image.php/lambda/theme/1634548811/bg/icon-search) no-repeat center center !important;
+  background: #1c54ac
+    url(/theme/image.php/lambda/theme/1634548811/bg/icon-search) no-repeat
+    center center !important;
   position: absolute;
   right: 0;
 }
@@ -78,7 +80,7 @@ body {
   -webkit-box-shadow: 0 0 0 1000px #2f2f2f inset !important;
 } */
 
-#page #site-news-forum :is(h1,h2,h3,h4,h5,h6) {
+#page #site-news-forum :is(h1, h2, h3, h4, h5, h6) {
   color: #c7cdd1 !important;
   text-decoration: none !important;
 }
@@ -135,3 +137,132 @@ div#page h2 {
 }
 
 /* Student Page */
+
+div.menubar div.dropdown span.userbutton span.usertext {
+  color: #3e8ede !important;
+}
+
+div.breadcrumb-nav nav ul.breadcrumb li span {
+  color: #c7cdd1 !important;
+  text-shadow: none !important;
+}
+
+section#region-main div[role="main"] .card-body h5 {
+  background: #2f2f2f !important;
+  color: #c7cdd1 !important;
+}
+
+div#paged-content-container-1
+  div#page-container-1
+  div[role="list"]
+  div.course-summaryitem {
+  background: #2f2f2f !important;
+  padding: 7px !important;
+  border: none !important;
+  margin-bottom: 7px !important;
+}
+
+div#paged-content-container-1
+  div#page-container-1
+  div[role="list"]
+  div.course-summaryitem
+  h6 {
+  color: #c7cdd1 !important;
+}
+
+div#paged-content-container-1
+  div#page-container-1
+  div[role="list"]
+  div.course-summaryitem
+  div.dropdown {
+  background: #212121 !important;
+  color: #c7cdd1 !important;
+}
+
+div#paged-content-container-1
+  div#page-container-1
+  div[role="list"]
+  div.course-summaryitem
+  div.muted {
+  color: #da9a25 !important;
+}
+
+aside#block-region-side-pre section.block {
+  border: none !important;
+}
+
+aside#block-region-side-pre div.card-body {
+  background: #2f2f2f !important;
+}
+
+aside#block-region-side-pre div.card-body h5 {
+  color: #c7cdd1 !important;
+}
+
+section.block_private_files {
+  border: none !important;
+  /* background: #212121 !important; */
+}
+
+section.block_private_files div.card-body {
+  background: #2f2f2f !important;
+  color: #c7cdd1 !important;
+  /* border-radius: 5px !important; */
+}
+
+section.block_private_files div.card-body h5 {
+  color: #c7cdd1 !important;
+}
+
+section.block_online_users {
+  border: none !important;
+}
+
+section.block_online_users div.card-body {
+  background: #2f2f2f !important;
+  color: #c7cdd1 !important;
+}
+
+section.block_online_users div.card-body h5 {
+  color: #c7cdd1 !important;
+}
+
+section.block_calendar_month {
+  border: none !important;
+}
+
+section.block_calendar_month div.card-body {
+  background: #2f2f2f !important;
+  color: #c7cdd1 !important;
+}
+
+section.block_calendar_month div.card-body h5 {
+  color: #c7cdd1 !important;
+}
+
+div.pagination li.page-item a{
+  border: none !important;
+}
+
+div.pagination ul>.disabled>a, div.pagination ul>.disabled>a:hover{
+  background: transparent !important;
+}
+
+div.pagination ul>li>a{
+  background: #2f2f2f !important;
+  color: #c7cdd1 !important;
+}
+
+div.dashboard-card-deck div.dashboard-card{
+  background: #2f2f2f !important;
+  color: #c7cdd1 !important;
+  border: none !important;
+}
+
+div.dashboard-card-deck div.dashboard-card div.text-muted{
+  color: #da9a25 !important;
+}
+
+div.text-truncate a,div.text-truncate a:hover{
+  color: #c7cdd1 !important;
+}
